@@ -1,4 +1,4 @@
-FROM tomcat8.5
+FROM tomcat
 RUN apt-get update
 RUN apt-get install -y maven git
 RUN mkdir /home/build
